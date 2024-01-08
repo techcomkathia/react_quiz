@@ -9,7 +9,7 @@ function Home() {
     <Container>
     <div>
       <h2>FRONT QUIZ</h2>
-      <p>Bem-vindo ao Quiz sobre HTML, CSS e JavaScript!</p>
+      <p>Bem-vindo ao Quiz sobre HTML, CSS , JavaScript e React!</p>
 
       <p>Clique no botão abaixo para começar:</p>
 
