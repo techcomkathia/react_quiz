@@ -1,11 +1,13 @@
 // src/components/Inicio.js
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Container, ContainerPergunta } from './AppStyles';
 
 
 function Home() {
   return (
-    <div className="secao-inicial">
+    <Container>
+    <div>
       <h2>FRONT QUIZ</h2>
       <p>Bem-vindo ao Quiz sobre HTML, CSS e JavaScript!</p>
 
@@ -16,6 +18,7 @@ function Home() {
       </Link>
 
     </div>
+    </Container>
   );
 }
 
