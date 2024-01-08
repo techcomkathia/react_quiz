@@ -1,22 +1,105 @@
 {
-    "questions": [
+    "perguntas": [
       {
-        "id": 1,
-        "question": "O que significa HTML?",
-        "options": ["Hypertext Markup Language", "Hyper Transfer Markup Language", "High Text Markup Language"],
-        "correctAnswer": "Hypertext Markup Language"
+        "pergunta": "Qual é a biblioteca JavaScript popular para construir interfaces de usuário declarativas e eficientes?",
+        "opcoes": ["Angular", "React", "Flask"],
+        "respostaCorreta": "React"
       },
       {
-        "id": 2,
-        "question": "Qual é a propriedade CSS para definir a cor do texto?",
-        "options": ["color", "text-color", "font-color"],
-        "correctAnswer": "color"
+        "pergunta": "O que é o \"viewport\" em HTML?",
+        "opcoes": ["A área visível de uma página web", "Um tipo de gráfico utilizado em páginas web", "Uma tag para inserir vídeos em uma página web"],
+        "respostaCorreta": "A área visível de uma página web"
       },
       {
-        "id": 3,
-        "question": "Qual é a função JavaScript para imprimir algo no console?",
-        "options": ["console.log()", "print()", "log()"],
-        "correctAnswer": "console.log()"
+        "pergunta": "O que é JSX no contexto de React?",
+        "opcoes": ["JavaScript XML", "JSON XML", "Java XML"],
+        "respostaCorreta": "JavaScript XML"
+      },
+      {
+        "pergunta": "Como você define um estado inicial em um componente de classe no React?",
+        "opcoes": ["this.state = {}", "state = {}", "setState = {}"],
+        "respostaCorreta": "this.state = {}"
+      },
+      {
+        "pergunta": "Como você adiciona uma borda a um elemento em CSS?",
+        "opcoes": ["border: 1px solid #000;", "border:solid 1px #000;", "box-border: 1px solid #000;"],
+        "respostaCorreta": "border: 1px solid #000;"
+      },
+      {
+        "pergunta": "Qual hook do React é usado para adicionar estado a componentes de função?",
+        "opcoes": ["useState", "useEffect", "useStateEffect"],
+        "respostaCorreta": "useState"
+      },
+      {
+        "pergunta": "O que são Styled Components em React?",
+        "opcoes": ["Componentes React com estilos incorporados", "Componentes React com estilos externos", "Um pacote para estilos globais em React"],
+        "respostaCorreta": "Componentes React com estilos incorporados"
+      },
+      {
+        "pergunta": "Qual é a principal diferença entre props e state em React?",
+        "opcoes": ["Props são imutáveis, state é mutável", "State é passado de pai para filho, props são mantidos localmente", "Props são utilizados apenas em componentes de classe"],
+        "respostaCorreta": "Props são imutáveis, state é mutável"
+      },
+      {
+        "pergunta": "O que é o hook useContext em React?",
+        "opcoes": ["Um hook para manipulação de eventos de contexto", "Um hook para criação de componentes", "Um hook para acessar valores de contexto sem renderização"],
+        "respostaCorreta": "Um hook para acessar valores de contexto sem renderização"
+      },
+      {
+        "pergunta": "Qual é o propósito da função map() ao renderizar listas em React?",
+        "opcoes": ["Iterar sobre elementos e retornar uma nova lista", "Modificar o estado de um componente", "Aplicar estilos a elementos da lista"],
+        "respostaCorreta": "Iterar sobre elementos e retornar uma nova lista"
+      },
+      {
+        "pergunta": "O que são Promises em JavaScript?",
+        "opcoes": ["Objetos que representam um valor que pode estar disponível agora, no futuro, ou nunca", "Funções que retornam um valor imediatamente", "Métodos para manipular arrays em JavaScript"],
+        "respostaCorreta": "Objetos que representam um valor que pode estar disponível agora, no futuro, ou nunca"
+      },
+      {
+        "pergunta": "O que é o React Router?",
+        "opcoes": ["Uma biblioteca para gerenciamento de estado", "Um framework para estilização de componentes", "Uma biblioteca para navegação em aplicativos React"],
+        "respostaCorreta": "Uma biblioteca para navegação em aplicativos React"
+      },
+      {
+        "pergunta": "O que são os métodos map(), filter() e reduce() em JavaScript?",
+        "opcoes": ["Métodos para manipular strings em JavaScript", "Métodos para iterar sobre arrays e transformar dados", "Métodos para criar objetos em JavaScript"],
+        "respostaCorreta": "Métodos para iterar sobre arrays e transformar dados"
+      },
+      {
+        "pergunta": "Qual é a diferença entre \"let\" e \"const\" em JavaScript?",
+        "opcoes": ["São sinônimos e podem ser usados indistintamente", "\"let\" é usado para variáveis com valores fixos, \"const\" para valores mutáveis", "\"const\" é usado para variáveis com valores fixos, \"let\" para valores mutáveis"],
+        "respostaCorreta": "\"const\" é usado para variáveis com valores fixos, \"let\" para valores mutáveis"
+      },
+      {
+        "pergunta": "O que é o React DevTools?",
+        "opcoes": ["Uma ferramenta de desenvolvimento para inspecionar hierarquias de componentes", "Um framework para testes unitários em React", "Um IDE para desenvolvimento React"],
+        "respostaCorreta": "Uma ferramenta de desenvolvimento para inspecionar hierarquias de componentes"
+      },
+      {
+        "pergunta": "O que é o Local Storage em JavaScript?",
+        "opcoes": ["Um método para armazenar dados no servidor", "Um local para armazenar variáveis globais", "Uma API para armazenar dados no navegador do usuário"],
+        "respostaCorreta": "Uma API para armazenar dados no navegador do usuário"
+      },
+      {
+        "pergunta": "Qual componente do React Router é usado para renderizar uma rota?",
+        "opcoes": ["<Link>", "<Route>", "<Router>"],
+        "respostaCorreta": "<Route>"
+      },
+      {
+        "pergunta": "Como você define um estilo global usando Styled Components?",
+        "opcoes": ["Não é possível, Styled Components são limitados a escopo local", "Usando o método createGlobalStyle", "Adicionando uma classe global em todos os componentes"],
+        "respostaCorreta": "Usando o método createGlobalStyle"
+      },
+      {
+        "pergunta": "Qual é o propósito do hook useEffect em React?",
+        "opcoes": ["Manipular eventos de mouse", "Gerenciar efeitos colaterais em componentes de função", "Definir o estado inicial de um componente"],
+        "respostaCorreta": "Gerenciar efeitos colaterais em componentes de função"
+      },
+      {
+        "pergunta": "O que é um callback em JavaScript?",
+        "opcoes": ["Uma função que é passada como argumento para outra função e executada mais tarde", "Um método para chamar funções automaticamente", "Um tipo de objeto especial em JavaScript"],
+        "respostaCorreta": "Uma função que é passada como argumento para outra função e executada mais tarde"
       }
     ]
+    
   }
