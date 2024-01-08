@@ -1,0 +1,22 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "O que significa HTML?",
+        "options": ["Hypertext Markup Language", "Hyper Transfer Markup Language", "High Text Markup Language"],
+        "correctAnswer": "Hypertext Markup Language"
+      },
+      {
+        "id": 2,
+        "question": "Qual é a propriedade CSS para definir a cor do texto?",
+        "options": ["color", "text-color", "font-color"],
+        "correctAnswer": "color"
+      },
+      {
+        "id": 3,
+        "question": "Qual é a função JavaScript para imprimir algo no console?",
+        "options": ["console.log()", "print()", "log()"],
+        "correctAnswer": "console.log()"
+      }
+    ]
+  }
